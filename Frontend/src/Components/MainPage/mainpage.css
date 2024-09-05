@@ -1,0 +1,21 @@
+.mainpage_container > h1{
+    color: var(gold,black);
+}
+.buttons{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttons > button{
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    color: gold;
+    background-color: red;
+    transition: all 0.3s ease-in-out;
+}
+.buttons > button:hover{
+    transform: scale(1.2);
+}

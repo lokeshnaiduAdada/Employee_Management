@@ -1,0 +1,66 @@
+.login_container{
+    padding: 20px;
+    background-image: linear-gradient(blue, yellow);
+    box-shadow: 0px 2px 5px 5px;
+    display: block;
+    height: auto;;
+}
+.login_form{
+    margin-left: 57vh;
+    margin-right: 57vh;
+}
+.login_form > h2 {
+    color: orangered;
+    font-size: 25px;
+    font-weight: 600;
+}
+.form{
+    display: grid;
+    gap:10px;
+}
+.form > div{
+    width: 90%;
+    padding: 10px;
+}
+.form >div > label{
+    color: cyan;
+    padding-left: 5px;
+    text-align: left;
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+}
+.form > div > input{
+    width: 96%;
+    font-weight: 500;
+    font-size: larger;
+    border-color: rgb(99, 102, 247);
+    border-radius: 0px 20px 20px 0px;
+    height: 40px;
+}
+.password_forgot{
+    text-align: right;
+}
+.password_forgot > a{
+    text-decoration: none;
+    color: thistle;
+}
+.form > div >input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+   margin: 0;
+}
+.login_button > button{
+    width: 100px;
+    height: 35px;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 10px;
+    color: blue;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+.login_button > button:hover{
+    transform: scale(1.2);
+}

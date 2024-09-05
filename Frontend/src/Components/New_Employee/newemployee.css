@@ -1,0 +1,29 @@
+.register_container{
+    padding: 20px;
+    background-color: blueviolet;
+    box-shadow: 0px 2px 5px 5px #888888;
+    display: block;
+    height: auto;
+}
+.register_form{
+    margin-left: 57vh;
+    margin-right: 57vh;
+}
+.register_form > h2{
+    color: orangered;
+    font-size: 25px;
+    font-weight: 600;
+}
+.register_button > button{
+    width: 100px;
+    height: 35px;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 10px;
+    color: blue;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+.register_button > button:hover{
+    transform: scale(1.2);
+}
